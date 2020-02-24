@@ -3,7 +3,7 @@
 Hi, I am a recently graduated computer graphics and animation engineer. Currently, working with a Unity game engine and C#. I have developed several Unity games. 
 Also practicing web development technologies like HTML, Bootstrap, JQuery, CSS.
 
-You can see the code of my personal projects on my GitHub profile ( https://vladimirakolar.github.io/ ).
+You can see the code of my personal projects on my <a href="https://github.com/vladimirakolar">GitHub profile</a>
 If my portfolio looks interesting to you, or if you would like to see my CV, don't hesitate to contact me.
 
 Looking forward to meeting new people and for new opportunities.
