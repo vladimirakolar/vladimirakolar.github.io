@@ -1,0 +1,751 @@
+/* Desktop model */
+*{
+	margin: 0;
+}
+.meni{
+	width: 100%;
+	height: 6%;
+	background-color: #282828;
+}
+.meni h4{
+	float: left;
+	margin: 0.5% 3% 0% 2%;
+	color: #dd6f48;
+	font-family: 'Oswald', sans-serif;
+}
+.lista{
+	width: 35%;
+	float: left;
+	margin: 0.8% 0%;
+}
+.lista li{
+	list-style: none;
+	float: left;
+	margin-left: 5%;
+}
+.lista a{
+	text-decoration: none;
+	color: #fdf4c1;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+.lista a:hover{
+	color: #dd6f48;
+}
+.dugme1{
+	text-align: center;
+	margin: 0.5% 0%;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #282828;
+	color: #fdf4c1;
+	border: none;
+	float: right;
+	border-radius: 3px;
+	font-weight: 900;
+	padding: 2px 10px;
+	font-size: 16px;
+}
+.dugme2{
+	text-align: center;
+	margin: 0.5% 2% 0.5% 1%;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #dd6f48;
+	color: #282828;
+	border: none;
+	float: right;
+	border-radius: 3px;
+	font-weight: 900;
+	padding: 2px 10px;
+	font-size: 16px;
+}
+.dugme2:hover{
+	color: #282828;
+	background-color: #fdf4c1;
+}
+.sekcija1{
+	width: 100%;
+	background-image: url(img/main.jpg);
+	background-size: 100% 200%;
+	padding-top: 8%;
+	padding-bottom: 5%;
+}
+.sekcija1 h2{
+	float:left;
+	color: #fdf4c1;
+	margin: 0.8% 1% 0.8% 40%;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.sekcija1 h1{
+	color: #dd6f48;
+	font-family: 'Oswald', sans-serif;
+}
+.pretraga{
+	width: 70%;
+	height: 9%;
+	margin-left: 15%;
+	margin-top: 1%; 
+	background-image: url(img/search.png);
+	background-size: 5% 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+	font-size: 20px;
+}
+.sekcija1 p{
+	width: 60%;
+	text-align: center;
+	color: #fdf4c1;
+	margin: 3% 20%;
+	font-family: 'Open Sans', sans-serif;
+}
+.sekcija2{
+	width: 100%;
+	height: 140%;
+	background-image: url(img/section.jpeg);
+	background-size: 120% 100%;
+	padding-top: 3%;
+}
+.sekcija2 h3{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #fdf4c1;
+}
+.prozor1{
+	width: 22%;
+	height: 40%;
+	float: left;
+	background-color: white;
+	margin: 4% 1% 1% 15%;
+	color: #282828;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-indent: 2%;
+}
+.prozor1:hover{
+	background-color: #dd6f48;
+	color: #fdf4c1;
+}
+.slika1{
+	width: 96%;
+	height: 80%;
+	background-image: url(img/s1.jpeg);
+	background-size: 100% 100%;
+	margin: 2% 2% 7% 2%;
+}
+.prozor2{
+	width: 22%;
+	height: 40%;
+	float: left;
+	background-color: white;
+	margin: 4% 1% 1% 1%;
+	color: #282828;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-indent: 2%;
+}
+.prozor2:hover{
+	background-color: #dd6f48;
+	color: #fdf4c1;
+}
+.slika2{
+	width: 96%;
+	height: 80%;
+	background-image: url(img/s2.jpeg);
+	background-size: 100% 100%;
+	margin: 2% 2% 7% 2%;
+}
+.prozor3{
+	width: 22%;
+	height: 40%;
+	float: left;
+	background-color: white;
+	margin: 4% 15% 1% 1%;
+	color: #282828;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-indent: 2%;
+}
+.prozor3:hover{
+	background-color: #dd6f48;
+	color: #fdf4c1;
+}
+.slika3{
+	width: 96%;
+	height: 80%;
+	background-image: url(img/s3.jpg);
+	background-size: 100% 100%;
+	margin: 2% 2% 7% 2%;
+}
+.prozor4{
+	width: 22%;
+	height: 40%;
+	float: left;
+	background-color: white;
+	margin: 1% 1% 2% 15%;
+	color: #282828;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-indent: 2%;
+}
+.prozor4:hover{
+	background-color: #dd6f48;
+	color: #fdf4c1;
+}
+.slika4{
+	width: 96%;
+	height: 80%;
+	background-image: url(img/s4.jpeg);
+	background-size: 100% 100%;
+	margin: 2% 2% 7% 2%;
+}
+.prozor5{
+	width: 22%;
+	height: 40%;
+	float: left;
+	background-color: white;
+	margin: 1% 1% 2% 1%;
+	color: #282828;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-indent: 2%;
+}
+.prozor5:hover{
+	background-color: #dd6f48;
+	color: #fdf4c1;
+}
+.slika5{
+	width: 96%;
+	height: 80%;
+	background-image: url(img/s5.jpeg);
+	background-size: 100% 100%;
+	margin: 2% 2% 7% 2%;
+}
+.prozor6{
+	width: 22%;
+	height: 40%;
+	float: left;
+	background-color: white;
+	margin: 1% 15% 2% 1%;
+	color: #282828;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-indent: 2%;
+}
+.prozor6:hover{
+	background-color: #dd6f48;
+	color: #fdf4c1;
+}
+.slika6{
+	width: 96%;
+	height: 80%;
+	background-image: url(img/s6.jpeg);
+	background-size: 100% 100%;
+	margin: 2% 2% 7% 2%;
+}
+.sekcija3{
+	width: 100%;
+	height: 60%;
+	background-color: #282828;
+	padding-top: 3%;
+}
+.sekcija3 h3{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #fdf4c1;
+}
+.dugme3{
+		display: none;
+		font-size: 0px;
+	}
+table{
+	width: 60%;
+	height: 60%;
+	margin: 3% 20% 3% 20%;
+	border-collapse: collapse;
+}
+th{
+	background-color: #fdf4c1;
+	border: 1px solid #282828;
+	color: #282828;
+}
+th:hover{
+	background-color: #282828;
+	color: #fdf4c1;
+}
+td{
+	background-color: #282828;
+	border-right: 1px solid #fdf4c1;
+	border-bottom: 1px solid #fdf4c1;
+	text-align: center;
+	color: #fdf4c1;
+}
+td:hover{
+	color: #282828;
+	background-color: #fdf4c1;
+}
+.sekcija4{
+	width: 100%;
+	height: 50%;
+	background-image: url(img/map.jpg);
+	background-size: 100% 200%;
+	padding-top: 3%;
+}
+.photostock{
+	width: 35%;
+	height: 50%;
+	margin: 2% 3% 2% 20%;
+	float: left;
+}
+.photostock h3{
+	font-family: 'Oswald', sans-serif;
+	color: #dd6f48;
+}
+.photostock h6{
+	font-family: 'Oswald', sans-serif;
+	color: #dd6f48;
+	margin-top: 4%;
+	text-align: right;
+}
+.photostock p{
+	margin-top: 5%;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fdf4c1;
+	text-align: justify;
+}
+.map{
+	float: left;
+}
+
+
+.kontakt h2{
+	font-family: 'Oswald', sans-serif;
+	color: #282828;
+	margin-top: 2%;
+	text-align: center;
+}
+.pozadina{
+	width: 50%;
+	height: 80%;
+	background-color: #e3e3e3;
+	margin: 2% 25%;
+	border-radius: 15px;
+}
+.zaglavlje{
+	width: 30%;
+	height: 10%;
+	background-color: #dd6f48;
+	border-radius: 0px 30px 0px 0px;
+	position: relative;
+	top: -5%;
+	left: 5%;
+}
+.zaglavlje p{
+	color: #fdf4c1;
+	font-size: 20px;
+	padding-top: 4%;
+	padding-left: 5%;
+	font-family: 'Oswald', sans-serif;
+}
+label{
+	color: #282828;
+	font-family: 'Open Sans', sans-serif;
+	margin: 2% 1% 1% 2%;
+}
+.tekst{
+	font-size: 20px;
+	width: 60%;
+	margin: 2% 1% 0% 2%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	margin: 2% 1% 1% 2%;
+	font-family: 'Open Sans', sans-serif;
+}
+.poruka{
+	width: 60%;
+	height: 20%;
+	margin: 2% 1% 0% 2%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	padding : 2%;
+}
+.pol{
+	margin: 2% 1% 0% 2%;
+	font-family: 'Open Sans', sans-serif;
+}
+.prosledi{
+	float: right;
+	background-color: #c2c2c2;
+	border: none;
+	color: white;
+	padding: 1% 6%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0% 4% 2% 2%;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.prosledi:hover{
+	background-color: #dd6f48;
+	color: #fdf4c1;
+}
+.map2{
+	width: 100%;
+	height: 80%;
+	background-color: #282828;
+}
+.skica{
+	margin-left: 2%;
+	margin-bottom: 2%;
+	padding-top: 2%;
+}
+.kontejner1{
+	width: 25%;
+	height: 40%;
+	margin: 0% .5% 1% 11.5%;
+	float: left;
+}
+.kontejner1 p{
+	color: #fdf4c1;
+	font-family: 'Open Sans', sans-serif;
+	margin: 4% 0%;
+}
+.kontejner1 h3{
+	font-family: 'Oswald', sans-serif;
+	color: #dd6f48;
+}
+.deo1 p{
+	color: #dd6f48;
+	font-family: 'Open Sans', sans-serif;
+}
+.kontejner2{
+	width: 25%;
+	height: 40%;
+	margin: 0% .5% 1% .5%;
+	float: left;
+}
+.kontejner2 p{
+	color: #fdf4c1;
+	font-family: 'Open Sans', sans-serif;
+	margin: 4% 0%;
+}
+.deo2 p{
+	color: #dd6f48;
+	font-family: 'Open Sans', sans-serif;
+}
+.kontejner3{
+	width: 25%;
+	height: 40%;
+	margin: 0% 11.5% 1% .5%;
+	float: left;
+}
+.kontejner3 p{
+	color: #fdf4c1;
+	font-family: 'Open Sans', sans-serif;
+	margin: 4% 0%;
+}
+.deo3 p{
+	color: #dd6f48;
+	font-family: 'Open Sans', sans-serif;
+}
+.map2 hr{
+	border: 1px solid #dd6f48;
+	width: 96%;
+	margin: auto;
+}
+footer{
+	width: 100%;
+	height: 5%;
+	background-color: #282828;
+}
+.dole p{
+	width: 13%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #fdf4c1;
+	text-align: center;
+	border-right: 2px solid #dd6f48;
+	float: left;
+	position: relative;
+	left: 33%;
+
+}
+.dole i{
+	float: left;
+	font-size: 25px;
+	margin: 0% 0% 0% 1%;
+	color: #fdf4c1;
+	position: relative;
+	left: 33%;
+}
+
+/* Tablet model */
+@media (max-width: 768px){
+	.lista{
+		width: 60%;
+	}
+	.dugme1{
+		font-size: 0;
+		background-color: #282828;
+	}
+	.dugme2{
+		width: 5%;
+		height: 90%;
+		background-image: url(img/menu.png);
+		background-size: 100% 100%;
+		font-size: 0;
+		background-color: #282828;
+	}
+	.sekcija1 h2{
+		margin: 0.8% 1% 0.8% 33%;
+	
+	}
+	.pretraga{
+		background-size: 10% 100%;
+	}
+	.prozor1{
+		width: 25%;
+		height: 27%;
+		margin: 4% 1% 1% 24%;
+	}
+	.prozor2{
+		width: 25%;
+		height: 27%;
+		margin: 4% 24% 1% 1%;
+	}
+	.prozor3{
+		width: 25%;
+		height: 27%;
+		margin: 4% 1% 1% 24%;
+	}
+	.prozor4{
+		width: 25%;
+		height: 27%;
+		margin: 4% 24% 1% 1%;
+	}
+	.prozor5{
+		width: 25%;
+		height: 27%;
+		margin: 4% 1% 1% 24%;
+	}
+	.prozor6{
+		width: 25%;
+		height: 27%;
+		margin: 4% 24% 1% 1%;
+	}
+	.dugme3{
+		display: none;
+		
+	}
+	table{
+		width: 80%;
+		height: 60%;
+		margin: 3% 10% 3% 10%;
+		border-collapse: collapse;
+	}
+	.sekcija4{
+		height: 70%;
+	}
+	.photostock{
+		width: 80%;
+		height: 50%;
+		margin: 2% 10% 2% 10%;
+		position: relative;
+		top: 180px;
+
+	}
+	.photostock h3{
+		text-align: center;
+	}
+	.map{
+		margin-left: 30%;
+		position: relative;
+		bottom: 230px;
+	}
+	
+	.pozadina{
+		width: 80%;
+		height: 80%;
+		background-color: #e3e3e3;
+		margin: 4% 10%;
+		border-radius: 15px;
+	}
+	.kontejner1{
+		width: 30%;
+		
+		margin: 0% 1% 1% 2%;
+	}
+	.kontejner2{
+		width: 30%;
+		
+		margin: 0% 1% 1% 1%;
+	}
+	.kontejner3{
+		width: 30%;
+	
+		margin: 0% 2% 1% 1%;
+	}
+	.dole p{
+		width: 23%;
+		position: relative;
+		left: 20%;
+
+	}
+	.dole i{
+		position: relative;
+		left: 20%;
+	}
+}
+
+/* Mobilni model */
+@media (max-width: 576px){
+	.meni{
+		height: 23%;
+	}
+	.meni h4{
+		text-align: center;
+		float: none;
+		margin: 0.5% 0% 0% 0%;
+	}
+	.lista{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.lista li{
+		float: none;
+		margin-left: 0%;
+	}
+	.dugme1{
+		font-size: 0;
+		background-color: #282828;
+	}
+	.dugme2{
+		width: 0%;
+		height: 0%;
+		font-size: 0;
+		background-color: #282828;
+		background-image: none;
+	}
+	.dugme2:hover{
+		background-color: #282828;
+	}
+	.sekcija1 h2{
+		margin: 1.5% 1% 0.8% 25%;
+	}
+	.pretraga{
+		width: 80%;
+		height: 8%;
+		margin-left: 10%;
+		background-size: 10% 100%;
+		font-size: 15px;
+	}
+	.sekcija2{
+		width: 100%;
+		height: 400%;
+		background-size: 340% 100%;
+	}
+	.prozor1{
+		width: 70%;
+		height: 15%;
+		margin: 4% 15% 1% 15%;
+	}
+	.prozor2{
+		width: 70%;
+		height: 15%;
+		margin: 4% 15% 1% 15%;
+	}
+	.prozor3{
+		width: 70%;
+		height: 15%;
+		margin: 4% 15% 1% 15%;
+	}
+	.prozor4{
+		width: 70%;
+		height: 15%;
+		margin: 4% 15% 1% 15%;
+	}
+	.prozor5{
+		width: 70%;
+		height: 15%;
+		margin: 4% 15% 1% 15%;
+	}
+	.prozor6{
+		width: 70%;
+		height: 15%;
+		margin: 4% 15% 1% 15%;
+	}
+	.sekcija3 h3{
+		margin: 10% 0%;
+	}
+	table{
+		display: none;
+	}
+	.dugme3{
+		display: block;
+		width: 30%;
+		text-align: center;
+		margin: 5% 33% 0.5% 33%;
+		font-family: 'Open Sans', sans-serif;
+		background-color: #dd6f48;
+		color: #282828;
+		border: none;
+		border-radius: 5px;
+		font-weight: 900;
+		padding: 14px 10px;
+		font-size: 20px;
+	}
+	.dugme3:hover{
+		color: #282828;
+		background-color: #fdf4c1;
+	}
+	.map{
+		margin-left: 19%;
+		position: relative;
+		bottom: 230px;
+	}
+	
+	.pozadina{
+		width: 98%;
+		margin: 2% 1%;
+	}
+	.tekst{
+		width: 96%;
+	}
+	.poruka{
+		width: 96%;
+	}
+	.prosledi{
+		width: 96%;
+		float: none;
+		padding: 1% 6%;
+		margin: 2% 4% 2% 2%;
+	}
+	.kontejner1 p{
+		font-size: 13px;
+	}
+	.kontejner2 p{
+		font-size: 13px;
+	}
+	.kontejner3 p{
+		font-size: 13px;
+	}
+	.dole p{
+		font-size: 13px;
+		width: 28%;
+		position: relative;
+		left: 10%;
+	}
+	.dole i{
+		font-size: 20px;
+		margin: 0% 2% 0% 2%;
+		position: relative;
+		left: 10%;
+	}
+}
+
+
