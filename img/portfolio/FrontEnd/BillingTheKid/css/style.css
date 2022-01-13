@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #797979; }
+
+header {
+  background: url("../slike/intro.jpg");
+  background-size: cover;
+  height: 100vh; }
+  header .navigacija ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #374249;
+    position: absolute;
+    right: 0; }
+    header .navigacija ul li {
+      float: left; }
+      header .navigacija ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 1.5em 2em;
+        text-decoration: none; }
+      header .navigacija ul li:hover {
+        text-decoration: underline; }
+      header .navigacija ul li:last-child a {
+        display: inline-block;
+        width: 99%;
+        padding: 0;
+        background-color: #f38181; }
+        header .navigacija ul li:last-child a img {
+          width: 50%; }
+  header .naslovi {
+    width: 100%;
+    background-color: #37424988;
+    position: absolute;
+    bottom: 0; }
+    header .naslovi h1 {
+      text-align: center;
+      padding: em;
+      color: white;
+      font-weight: bold;
+      font-size: 3em; }
+    header .naslovi h3 {
+      text-align: center;
+      padding-bottom: 1em;
+      color: white;
+      font-weight: normal; }
+    header .naslovi h4 {
+      text-align: center;
+      padding-top: 1em;
+      color: white;
+      font-weight: normal; }
+
+main .dugmici {
+  background-color: white;
+  padding: 1.5em;
+  width: 70%;
+  margin: auto; }
+  main .dugmici .dugme {
+    border: 1px solid #374249;
+    border-radius: 50px;
+    margin: 0 1em; }
+    main .dugmici .dugme p {
+      margin: 1em 2em; }
+    main .dugmici .dugme:hover {
+      background-color: #cfd1d3; }
+main .krugovi {
+  background-color: #f3f7f9;
+  width: 100%; }
+  main .krugovi .izbor {
+    width: 70%;
+    margin: auto;
+    overflow: hidden; }
+    main .krugovi .izbor img {
+      display: inline-block;
+      border-radius: 50%;
+      width: 20%;
+      margin: 2em 6em;
+      opacity: 0.5; }
+      main .krugovi .izbor img:hover + .opis {
+        opacity: 1; }
+      main .krugovi .izbor img:hover {
+        opacity: 1; }
+    main .krugovi .izbor .opis {
+      width: 60%;
+      display: inline-block;
+      overflow: auto;
+      margin-bottom: 7em;
+      opacity: 0; }
+      main .krugovi .izbor .opis p {
+        color: #374249;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 2em;
+        font-weight: bold; }
+      main .krugovi .izbor .opis a {
+        color: #f38181;
+        text-decoration: none; }
+    main .krugovi .izbor .desno {
+      margin-top: 7em; }
+      main .krugovi .izbor .desno p {
+        text-align: right; }
+      main .krugovi .izbor .desno a {
+        float: right; }
+  main .krugovi .dva img {
+    float: right;
+    overflow: hidden; }
+main .pricing h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+  color: #374249; }
+main .pricing p {
+  text-align: center;
+  padding: 1em; }
+main .pricing table {
+  width: 60%;
+  margin: 3em auto;
+  text-align: center;
+  border-collapse: collapse; }
+  main .pricing table th, main .pricing table td {
+    padding: 1em;
+    border: 1px solid black; }
+    main .pricing table th:hover, main .pricing table td:hover {
+      background-color: #cfd1d3; }
+  main .pricing table td:first-child {
+    border: none; }
+  main .pricing table .red {
+    background-color: #f38181;
+    color: white; }
+  main .pricing table .gray {
+    background-color: #374249;
+    color: white; }
+main .pricing button {
+  display: none; }
+main .kontakt {
+  background-color: #f3f7f9; }
+  main .kontakt h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+    color: #374249; }
+  main .kontakt iframe {
+    display: inline-block;
+    margin: 1em 1em 1em 20em; }
+  main .kontakt form {
+    width: 40%;
+    height: auto;
+    margin: 1em;
+    background-color: #f38181;
+    display: inline-block;
+    overflow: auto; }
+    main .kontakt form select {
+      width: 20%;
+      padding: 1em 1.5em;
+      border: none;
+      background-color: white;
+      margin: 1.5em 1em; }
+    main .kontakt form input[type=text] {
+      width: 70%;
+      padding: 1em 1.5em;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin: 1.5em 1em; }
+    main .kontakt form input[type=email] {
+      width: 95%;
+      padding: 1em 1.5em;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin: 1.5em 1em; }
+    main .kontakt form textarea {
+      width: 95%;
+      padding: 1em 1.5em;
+      border: 1px solid #ccc;
+      resize: vertical;
+      margin: 0.5em 1em; }
+
+footer {
+  background-color: #374249;
+  padding: 1em;
+  text-align: center;
+  color: white; }
+  footer span {
+    color: #f38181; }
+
+/*# sourceMappingURL=style.css.map */

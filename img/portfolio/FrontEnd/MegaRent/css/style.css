@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #797979; }
+
+header {
+  background-image: url(..//slike/background.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 3em; }
+  header .navigacija {
+    width: 80%;
+    background-color: #f0f0f0;
+    padding: 1em;
+    margin: auto; }
+    header .navigacija .logo {
+      font-size: 2em;
+      font-weight: bold;
+      color: #797979;
+      float: left;
+      width: 20%; }
+      header .navigacija .logo span {
+        color: #e42b15; }
+    header .navigacija ul {
+      width: 80%;
+      list-style-type: none;
+      overflow: hidden;
+      text-align: right;
+      list-style: none; }
+      header .navigacija ul li {
+        display: inline-block; }
+        header .navigacija ul li a {
+          display: inline-block;
+          color: #797979;
+          text-align: center;
+          padding: 0.5em 1em;
+          text-decoration: none;
+          text-transform: uppercase; }
+  header .naslov {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 15em; }
+    header .naslov h1 {
+      color: white;
+      border-bottom: 1px solid #e42b15;
+      font-size: 3em;
+      font-weight: normal; }
+    header .naslov h3 {
+      color: white;
+      padding-top: 0.5em;
+      font-weight: normal; }
+
+main #catalog {
+  padding-bottom: 10em; }
+  main #catalog h2 {
+    text-transform: uppercase;
+    padding: 3em 0em 2em;
+    font-size: 2em;
+    text-align: center; }
+  main #catalog .predlozi {
+    width: 70%;
+    margin: auto; }
+    main #catalog .predlozi .box {
+      display: inline-block;
+      width: 24%;
+      white-space: normal; }
+      main #catalog .predlozi .box img {
+        width: 80%;
+        margin: 1em; }
+      main #catalog .predlozi .box p {
+        text-align: center;
+        padding: 0.5em; }
+      main #catalog .predlozi .box button {
+        padding: 1em 3em;
+        background-color: #e42b15;
+        color: white;
+        width: 50%;
+        margin: auto;
+        border: none;
+        text-transform: uppercase;
+        display: block; }
+        main #catalog .predlozi .box button:hover {
+          background-color: black; }
+main .cena h2 {
+  text-transform: uppercase;
+  padding: 1em 0em 2em;
+  font-size: 2em;
+  text-align: center; }
+main .cena table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 1em auto 4em; }
+  main .cena table td, main .cena table th {
+    text-align: center;
+    padding: 1em 3em; }
+  main .cena table thead th {
+    background-color: red;
+    color: white; }
+    main .cena table thead th:first-child {
+      background-color: #e42b15; }
+  main .cena table tbody th {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; }
+  main .cena table tbody td {
+    border-bottom: 1px solid black; }
+    main .cena table tbody td:hover {
+      background-color: black; }
+main .cena button {
+  padding: 1em 3em;
+  background-color: #e42b15;
+  color: white;
+  width: 10%;
+  margin: auto;
+  margin-bottom: 2em;
+  border: none;
+  text-transform: uppercase;
+  display: none; }
+  main .cena button:hover {
+    background-color: black; }
+
+footer {
+  background-color: black;
+  width: 100%;
+  padding: 1em 20%; }
+  footer:before, footer:after {
+    content: "";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #797979;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e42b15; }
+    footer .logo span {
+      color: #e42b15; }
+  footer address {
+    width: 40%;
+    padding: 2em;
+    color: #f0f0f0;
+    display: inline-block; }
+  footer iframe {
+    float: right;
+    margin: 2em; }
+
+@media screen and (max-width: 1260px) {
+  header .navigacija {
+    width: 95%; }
+  header .naslov {
+    width: 90%; }
+
+  main #catalog .predlozi .box {
+    width: 49%;
+    margin-bottom: 2em; }
+
+  footer .logo {
+    font-size: 2em;
+    margin: auto;
+    width: 100%;
+    text-align: center; }
+  footer address {
+    width: 25%;
+    padding: 3em 0em;
+    display: block;
+    margin: auto; }
+  footer iframe {
+    float: none;
+    display: block;
+    margin: auto; } }
+@media screen and (max-width: 850px) {
+  header {
+    background-image: none;
+    background: black;
+    height: auto;
+    padding-bottom: 3em; }
+    header .navigacija {
+      width: 90%; }
+      header .navigacija ul {
+        width: 100%;
+        text-align: center; }
+        header .navigacija ul li {
+          display: block; }
+    header .naslov {
+      width: 80%;
+      margin-top: 3em; }
+
+  main #catalog .predlozi {
+    width: 80%; }
+    main #catalog .predlozi .box {
+      width: 99%; }
+  main .cena table {
+    display: none; }
+  main .cena button {
+    width: 20%;
+    display: block; }
+
+  footer address {
+    width: 100%;
+    text-align: center; }
+  footer iframe {
+    float: none;
+    margin: auto; } }
+
+/*# sourceMappingURL=style.css.map */

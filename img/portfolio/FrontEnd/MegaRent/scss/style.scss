@@ -1,0 +1,300 @@
+@import 'vars';
+@import 'mixin';
+
+@include main;
+
+header {
+    background-image: url(..//slike/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 3em;
+
+    .navigacija {
+        width: 80%;
+        background-color: $grey_background;
+        padding: 1em;
+        margin: auto;
+
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+            color: $main_text_color;
+            float: left;
+            width: 20%;
+            span{
+                color: $red_dark;
+            }
+        }
+        ul {
+            width: 80%;
+            list-style-type: none;
+            overflow: hidden;
+            text-align: right;
+            list-style: none;
+
+            li {
+                display: inline-block;
+
+                a {
+                    display: inline-block;
+                    color: $main_text_color;
+                    text-align: center;
+                    padding: 0.5em 1em;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .naslov {
+        
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        margin-top: 15em;
+        h1 {
+            color: white;
+            border-bottom: 1px solid $red_dark;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h3 {
+            color: white;
+            padding-top: 0.5em;
+            font-weight: normal;
+        }
+    }
+}
+
+main {
+
+    #catalog {
+        padding-bottom: 10em;
+        h2 {
+            text-transform: uppercase;
+            padding: 3em 0em 2em;
+            font-size: 2em;
+            text-align: center;
+        }
+        .predlozi {
+            width: 70%;
+            margin: auto;
+            .box {
+                display: inline-block;
+                width: 24%;
+                white-space: normal;
+                img {
+                    width: 80%;
+                    margin: 1em;
+                }
+                p {
+                    text-align: center;
+                    padding: 0.5em;
+                }
+                button {
+                    padding: 1em 3em;
+                    background-color: $red_dark;
+                    color: white;
+                    width: 50%;
+                    margin: auto;
+                    border: none;
+                    text-transform: uppercase;
+                    display: block;
+                    &:hover {
+                        background-color: black;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .cena {
+        h2 {
+            text-transform: uppercase;
+            padding: 1em 0em 2em;
+            font-size: 2em;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 1em auto 4em;
+            td, th {
+                text-align: center;
+                padding: 1em 3em;
+               
+            }
+            thead{
+                th{
+                    background-color: red;
+                    color: white;
+                    &:first-child {
+                        background-color: $red_dark;
+                    }
+                }
+                
+            }
+            tbody {
+                th{
+                    background-color: $grey_background;
+                    border-bottom: 1px solid black;
+                }
+                td {
+                    border-bottom: 1px solid black;
+                    &:hover {
+                        background-color: black;
+                    }
+                }
+            }
+        }
+        button {
+            padding: 1em 3em;
+            background-color: $red_dark;
+            color: white;
+            width: 10%;
+            margin: auto;
+            margin-bottom: 2em;
+            border: none;
+            text-transform: uppercase;
+            display: none;
+            &:hover {
+                background-color: black;
+            }
+        }
+    }
+
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 1em 20%;
+	@include clearfix;
+
+    .logo {
+        font-size: 2em;
+        font-weight: bold;
+        color: $main_text_color;
+        float: left;
+        width: 100%;
+        border-bottom: 1px solid $red_dark;
+        span{
+            color: $red_dark;
+        }
+    }
+    
+    address {
+        width: 40%;
+        padding: 2em;
+        color: $grey_background;
+        display: inline-block;
+    }
+
+    iframe {
+        float: right;
+        margin: 2em;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    header {    
+        .navigacija {
+            width: 95%;    
+        }
+        .naslov {
+            width: 90%;
+        }
+    }
+    main {
+        #catalog {
+            .predlozi {
+                .box {
+                    width: 49%;
+                    margin-bottom: 2em;
+                }
+            }
+        }
+    }
+    footer {
+        .logo {
+            font-size: 2em;
+            margin: auto;
+            width: 100%;
+            text-align: center;
+        }
+        
+        address {
+            width: 25%;
+            padding: 3em 0em;
+            display: block;
+            margin: auto;
+        }
+    
+        iframe {
+            float: none;
+            display: block;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    header {
+        background-image: none;
+        background: black;
+        height: auto;
+        padding-bottom: 3em;
+        .navigacija {
+            width: 90%;
+            ul {
+                width: 100%;
+                text-align: center;
+                li {
+                    display: block;
+                }
+            }
+        }
+        .naslov {
+            width: 80%;
+            margin-top: 3em;
+        }
+    }
+    
+    main {
+    
+        #catalog {
+            .predlozi {
+                width: 80%;
+                .box {
+                    width: 99%;
+                }
+            }
+            
+        }
+    
+        .cena {
+            table {
+                display: none;
+            }
+            button {
+                width: 20%;
+                display: block;
+            }
+        }
+    }
+    
+    footer {    
+        
+        address {
+            width: 100%;
+            text-align: center;
+        }
+    
+        iframe {
+            float: none;
+            margin: auto;
+        }
+    }
+}
+

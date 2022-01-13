@@ -1,0 +1,438 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	background-color: #072133;
+}
+.nopadding {
+
+   padding: 0 !important;
+
+   margin: 0 !important;
+
+}
+
+/* isto sto je na index stranici i contact stranici */
+.pool{
+	text-align: right;
+}
+.pool h1{
+	color: white;
+	font-size: 56;
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	font-weight: 600;
+}
+.pool h5{
+	color: #058ED7;
+	font-size: 13;
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	margin-top: 11%;
+	margin-bottom: 0%;
+	font-weight: 600;
+}
+.pool h6{
+	color: white;
+	font-size: 12;
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	font-weight: 600;
+}
+.company h3{
+	color: white;
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+.futer img{
+	width: 100%;
+}
+.dno h5{
+	text-align: center;
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	margin: 2% 0%;
+	color: #356686;
+}
+
+/* lista */
+
+.list-inline{
+	background-color: #0475ad;
+	margin: 0%;
+	
+}
+.list-inline ul{
+	padding-left: 1%;
+}	
+.list-inline li{
+	margin-left: 2%;
+	margin-top: 1%;
+	margin-bottom: 0.7%;
+	background-color: #0475ad;
+}
+.list-inline a{
+	font-size: 18;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-weight: 600;
+	color: white;
+	background-color: #0475ad;
+}
+.list-inline a:hover{
+	color: #051f31;
+	display: block;
+}
+.slika img{
+	width: 100%;
+	padding: 0;
+}
+
+
+/* index stranica */
+.mala_slika_1 {
+	background-color: #03121c;
+	margin-left: 4%;
+	padding-right: 1%;
+}
+.mala_slika_1 h2{
+	color: white;
+	background-color: #03121c;
+	margin: 0%;
+	padding-top: 5%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	
+}
+.mala_slika_1 h4{
+	color: #058ED7;
+	background-color: #03121c;
+	margin: 0%;
+	padding-bottom: 5%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+.mala_slika_1 h6{
+	color: white;
+	background-color: #03121c;
+	padding-top: 2%;
+	font-family: 'Arya', sans-serif;
+}
+.mala_slika_1 p{
+	color: #356686;
+	background-color: #03121c;
+	font-family: 'Arya', sans-serif;
+}
+.mala_slika_1 img{
+	width: 100%;
+	height: 30%;
+	background-color: #03121c;
+}
+
+.mala_slika_2 {
+	background-color: #03121c;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.mala_slika_2 h2{
+	color: white;
+	background-color: #03121c;
+	margin: 0%;
+	padding-top: 5%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+.mala_slika_2 h4{
+	color: #058ED7;
+	background-color: #03121c;
+	margin: 0%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	padding-bottom: 5%;
+}
+.mala_slika_2 h6{
+	color: white;
+	background-color: #03121c;
+	padding-top: 2%;
+	font-family: 'Arya', sans-serif;
+}
+.mala_slika_2 p{
+	color: #356686;
+	background-color: #03121c;
+	font-family: 'Arya', sans-serif;
+}
+.mala_slika_2 img{
+	width: 100%;
+	height: 29.8%;
+	background-color: #03121c;
+}
+
+.mala_slika_3 {
+	background-color: #03121c;
+	padding-left: 1%;
+	margin-right: 4%;
+}
+.mala_slika_3 h2{
+	color: white;
+	background-color: #03121c;
+	margin: 0%;
+	padding-top: 5%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+.mala_slika_3 h4{
+	color: #058ED7;
+	background-color: #03121c;
+	margin: 0%;
+	padding-bottom: 5%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+.mala_slika_3 h6{
+	color: white;
+	background-color: #03121c;
+	padding-top: 2%;
+	font-family: 'Arya', sans-serif;
+}
+.mala_slika_3 p{
+	color: #356686;
+	background-color: #03121c;
+	font-family: 'Arya', sans-serif;
+}
+.mala_slika_3 img{
+	width: 100%;
+	height: 30%;
+	background-color: #03121c;
+}
+.button{
+	background-color: #058ED7;
+	border: none;
+	color: white;
+	padding: 8px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 15px 6px;
+	cursor: pointer;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+/* kontakt stranica */
+.kontakt1 {
+	background-color: #03121c;
+	margin-left: 2.5%;
+}
+.kontakt1 h2{
+	color: white;
+	background-color: #03121c;
+	margin: 0% 0% 0% 0%;
+	padding: 3% 1%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+.mapa{
+	float: left;
+	background-color: #03121c;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.mapa h6{
+	color: white;
+	background-color: #03121c;
+	font-family: 'Arya', sans-serif;
+}
+.mapa p{
+	color: #058ED7;
+	background-color: #03121c;
+	font-family: 'Arya', sans-serif;
+}
+.ikona1{
+	background-color: #03121c;
+	float: left;
+	width: 200%;
+}
+.ikona1 img{
+	width: 30%;
+	background-color: #03121c;
+	float: left;
+}
+.ikona1 p{
+	width: 100%;
+	padding-top: 5.2%;
+	padding-right: 5%;
+	margin: 0%;
+	background-color: #03121c;
+	font-family: 'Arya', sans-serif;
+}
+.ikona2{
+	background-color: #03121c;
+	float: left;
+	width: 200%;
+}
+.ikona2 img{
+	width: 30%;
+	background-color: #03121c;
+	float: left;
+}
+.ikona2 p{
+	width: 100%;
+	padding-top: 5%;
+	padding-left: 2%;
+	padding-right: 5%;
+	margin: 0%;
+	background-color: #03121c;
+	font-family: 'Arya', sans-serif;
+}
+
+.kontakt2 {
+	background-color: #03121c;
+	margin-right: 2.4%;
+}
+.kontakt2 h2{
+	color: white;
+	background-color: #03121c;
+	margin: 0% 0% 0% 0% ;
+	padding: 3% 1%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+
+/* forma */
+.ime {
+	padding: 1% 1% 1% 1%;
+	background-color: #03121c;
+	margin: 0%;
+	font-family: 'Arya', sans-serif;
+	color: #356686;
+}
+.ime2 {
+	width: 90%;
+	padding: 0% 0% 0% 1%;
+	border-radius: 4px;
+	border: 1px solid #03121c;
+	background-color: #072133;
+	font-family: 'Arya', sans-serif;
+}
+.poruka {
+	padding: 1% 1% 1% 1%;
+	float: left;
+	background-color: #03121c;
+	width: 100%;
+	font-family: 'Arya', sans-serif;
+	color: #356686;
+}
+.poruka2 {
+	height: 34%;
+	width: 87%;
+	resize: vertical;
+	border-radius: 4px;
+	background-color: #072133;
+	border: 1px solid #03121c;
+	padding: 0% 0% 0% 1%;
+	float: left;
+	margin-left: 10%;
+	font-family: 'Arya', sans-serif;
+}
+.dugme {
+	background-color: #015ca3;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    float: left;
+	margin: 2% 0% 1% 3%;
+	margin-left: 3%;
+	font-family: 'Arya', sans-serif;
+}
+form{
+	height: 67%;
+	background-color: #03121c;
+}
+
+
+
+/* tablet */
+@media (max-width: 992px){
+	.mala_slika_1 {
+		margin-left: 6%;
+	}
+	.mala_slika_3 {
+		margin-right: 6%;
+	}
+	.mala_slika_2 {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	.mala_slika_2 img{
+		height: 29.9%;
+	}
+	.kontakt1 {
+		margin-left: 3.8%;
+	}
+	.kontakt2 {
+		margin-right: 3.8%;
+	}
+	.ikona1 img{
+		width: 25%;
+	}
+	.ikona2 img{
+		width: 25%;
+	}
+	.ime2 {
+		width: 80%;
+	}
+	form{
+		height: 72.9%;
+	}
+}
+
+
+/* telefon */
+@media (max-width: 768px){
+	.list-inline{
+		background-color: #072133;
+	}	
+	.list-inline li{
+		background-color:  #0475ad;
+		padding: 3%;
+		width: 98%;
+	}
+	.mala_slika_1 {
+		margin-left: 4.2%;
+		margin-right: 4.2%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.mala_slika_2 {
+		margin-left: 4.2%;
+		margin-right: 4.2%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.mala_slika_3 {
+		margin-left: 4.2%;
+		margin-right: 4.2%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.kontakt1 {
+		margin-left: 3.8%;
+		margin-right: 3.8%;
+	}
+	.ikona1{
+		width: 100%;
+	}
+	.ikona2{
+		width: 100%;
+	}
+	.ikona1 img{
+		width: 40%;
+	}
+	.ikona2 img{
+		width: 40%;
+	}
+	.kontakt2 {
+		margin-left: 3.8%;
+		margin-right: 3.8%;
+	}
+	.ime2 {
+		width: 80%;
+	}
+	form{
+		height: 55%;
+	}
+}
